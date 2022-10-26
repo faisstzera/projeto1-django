@@ -1,3 +1,4 @@
 {
-    "python.linting.enabled": false
+  "window.zoomLevel": 0,
+  "editor.fontSize": 24
 }

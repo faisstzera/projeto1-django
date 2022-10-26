@@ -1,4 +1,4 @@
-"""projeto URL Configuration
+"""project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -24,5 +24,4 @@ urlpatterns = [
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
